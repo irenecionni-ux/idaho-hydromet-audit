@@ -1,0 +1,19 @@
+name: hydromet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - geopandas
+  - shapely
+  - matplotlib
+  - seaborn
+  - contextily
+  - requests
+  - jupyterlab
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+      - metloom

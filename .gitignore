@@ -1,0 +1,33 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# -----------------------
+# Jupyter
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+
+# -----------------------
+# Data (do not commit)
+# -----------------------
+project/data/raw/*
+project/data/processed/*
+
+# -----------------------
+# Outputs (do not commit)
+# -----------------------
+project/outputs/*
+
+!project/data/raw/.gitkeep
+!project/data/processed/.gitkeep
+!project/outputs/.gitkeep
