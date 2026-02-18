@@ -31,3 +31,12 @@ project/outputs/*
 !project/data/raw/.gitkeep
 !project/data/processed/.gitkeep
 !project/outputs/.gitkeep
+# Environments
+metloom-env/
+metloom/
+
+# Outputs
+out/
+
+# Archive
+old/
